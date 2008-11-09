@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<meta name="Description" content="Information architecture, Web Design, Web Standards." />
+<meta name="Keywords" content="your, keywords" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Distribution" content="Global" />
+<meta name="Author" content="Erwin Aligam - ealigam@gmail.com" />
+<meta name="Robots" content="index,follow" />
+
+<link rel="stylesheet" href="images/HigherGround.css" type="text/css" />
+
+<title>Agile Philanthropy</title></head>
+
+<body>
+<!-- wrap starts here -->
+<div id="wrap">
+
+	<div id="top-bg"></div>
+				
+	<!--header -->
+	<div id="header">			
+				
+		<h1 id="logo-text"><a href="index.html" title="">agile<span>philanthropy</span></a></h1>		
+		<p id="slogan">Real Projects, Real Challenges, Real Impact ... Get Real!</p>		
+			
+		
+		<div id="header-photo"></div>		
+	<!--header ends-->					
+	</div>
+	<!-- navigation starts-->	
+	<div  id="nav">
+		<ul>
+			<li <%= @current_tab==:home ? 'id="current"' : '' %> >
+				<a href="/home">Home</a></li>
+			<li <%= @current_tab==:labs ? 'id="current"' : '' %> >
+				<a href="/labs">Labs</a></li>
+			<li <%= @current_tab==:sponsors ? 'id="current"' : '' %> >
+				<a href="/sponsors">Sponsors</a></li>
+			<li <%=  @current_tab==:about ? 'id="current"' : '' %> >
+				<a href="/about">About</a></li>		
+		</ul>
+	<!-- navigation ends-->	
+	</div>					
+			
+	<!-- content-wrap starts -->
+	<div id="content-wrap">
+	
+		<div id="main">
+		<%= @content_for_layout%>
+		<!-- main ends -->	
+		</div>
+		<div id="sidebar">
+			<h3>Links</h3>
+			<ul class="sidemenu">
+				<li><a href="http://www.pdphoto.org/">PDPhoto.org</a></li>
+				<li><a href="http://www.squidfingers.com/patterns/">Squidfingers | Patterns</a></li>
+				<li><a href="http://www.alistapart.com">Alistapart</a></li>					
+				<li><a href="http://www.cssremix.com">CSS Remix</a></li>
+				<li><a href="http://www.cssmania.com">CSS Mania</a></li>				
+			</ul>
+
+			<h3>Sponsors</h3>
+			<ul class="sidemenu">
+				<li>
+					<a href="http://www.4templates.com/?aff=ealigam">
+						<strong>4templates</strong>
+					</a> <br /> Low Cost Hi-Quality Templates
+				</li>
+			</ul>	
+			<h3>Wise Words</h3>
+			<p>&quot;Great works are performed not by strength,
+			but by perseverance.&quot; </p>
+					
+			<p class="align-right">- Samuel Johnson</p>
+					
+						
+		<!-- sidebar ends -->		
+		</div>		
+		
+		
+	<!-- content-wrap ends-->	
+	</div>
+		
+	<!-- footer starts -->		
+	<div id="footer-wrap">
+		<div id="footer-bottom">		
+			<p>
+			&copy; 2008 <strong>Electroglide Inc.</strong> | 
+			Design by: <a href="http://www.styleshout.com/">styleshout</a> | 
+			Valid <a href="http://validator.w3.org/check?uri=referer">XHTML</a> | 
+			<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>
+	 		
+			
+		</div>	
+
+<!-- footer ends-->
+</div>
+<!-- wrap ends here -->
+</div>
+
+</body>
+</html>
