@@ -12,7 +12,7 @@
 
 <link rel="stylesheet" href="images/HigherGround.css" type="text/css" />
 
-<title>Agile Philanthropy</title></head>
+<title>Electroglide</title></head>
 
 <body>
 <!-- wrap starts here -->
@@ -22,8 +22,8 @@
 				
 	<!--header -->
 	<div id="header">			
-				
-		<h1 id="logo-text"><a href="index.html" title="">agile<span>philanthropy</span></a></h1>		
+			
+		<h1 id="logo-text"><a href="/" title="">electro<span>glide</span></a></h1>		
 		<p id="slogan">Real Projects, Real Challenges, Real Impact ... Get Real!</p>		
 			
 		
@@ -33,12 +33,7 @@
 	<!-- navigation starts-->	
 	<div  id="nav">
 		<ul>
-			<li <%= @current_tab==:home ? 'id="current"' : '' %> >
-				<a href="/home">Home</a></li>
-			<li <%= @current_tab==:labs ? 'id="current"' : '' %> >
-				<a href="/labs">Labs</a></li>
-			<li <%= @current_tab==:sponsors ? 'id="current"' : '' %> >
-				<a href="/sponsors">Sponsors</a></li>
+			<li <%= @current_tab==:home ? 'id="current"' : '' %> >	<a href="/">Home</a></li>		
 			<li <%=  @current_tab==:about ? 'id="current"' : '' %> >
 				<a href="/about">About</a></li>		
 		</ul>
@@ -53,23 +48,25 @@
 		<!-- main ends -->	
 		</div>
 		<div id="sidebar">
+			<img src="/images/electroglide-small.jpg" width="159" height="45" alt="Electroglide Small">
 			<h3>Links</h3>
 			<ul class="sidemenu">
-				<li><a href="http://www.pdphoto.org/">PDPhoto.org</a></li>
-				<li><a href="http://www.squidfingers.com/patterns/">Squidfingers | Patterns</a></li>
-				<li><a href="http://www.alistapart.com">Alistapart</a></li>					
-				<li><a href="http://www.cssremix.com">CSS Remix</a></li>
-				<li><a href="http://www.cssmania.com">CSS Mania</a></li>				
+				<li><a href="http://www.codegreenlabs.com/">Agile Philanthropy</a></li>
+				<li><a href="http://www.agilealliance.com/patterns/">Agile Alliance</a></li>
+				<li><a href="http://agiletoolkit.libsyn.com">AgileToolkit Podcasts</a> </li>
 			</ul>
 
-			<h3>Sponsors</h3>
-			<ul class="sidemenu">
-				<li>
-					<a href="http://www.4templates.com/?aff=ealigam">
-						<strong>4templates</strong>
-					</a> <br /> Low Cost Hi-Quality Templates
-				</li>
-			</ul>	
+			
+			<h3>AgileToolkit Podcasts</h3>
+			<p> <%=image_tag("podcast_logo.jpg",:class => "no-border" ,  :size => "100x100") %><br/>
+				Agile toolkit is dedicated to delivering the tools and information necessary to deliver Agile Projects 
+				in the real world.  Agile Toolkit is sponsored by Electroglide and is dedicated to OpenSource and 
+				Open Content. </p>  
+
+			  <p>Sign up on iTunes by searching the Podcast Directry in the iTunes store for Agile Toolkit or visit 
+			    <a href="http://agiletoolkit.libsyn.com">AgileToolkit Podcasts</a> 
+			      </p>
+			
 			<h3>Wise Words</h3>
 			<p>&quot;Great works are performed not by strength,
 			but by perseverance.&quot; </p>

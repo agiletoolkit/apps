@@ -1,0 +1,32 @@
+Ubuntu 8.x
+
+http://articles.slicehost.com/2008/4/25/ubuntu-hardy-setup-page-1
+
+Temporary Root  AgileToolkitRDt3KZ
+free
+IP 208.75.85.49
+un otto
+pw agile!23
+
+
+http://articles.slicehost.com/2008/4/25/ubuntu-hardy-setup-page-2
+http://articles.slicehost.com/2008/7/8/ubuntu-hardy-installing-mysql-with-rails-and-php-options#
+http://articles.slicehost.com/2008/4/30/ubuntu-hardy-ruby-on-rails
+http://articles.slicehost.com/2008/5/1/ubuntu-hardy-mod_rails-installation
+http://articles.slicehost.com/2008/4/25/ubuntu-hardy-installing-apache-and-php5
+http://articles.slicehost.com/2008/5/1/ubuntu-hardy-mod_rails-installation
+http://articles.slicehost.com/2008/5/1/ubuntu-hardy-using-mod_rails-to-serve-your-application
+
+
+sudo nano /etc/apache2/apache2.conf
+sudo apache2ctl graceful
+mysqladmin -h localhost -u root -pagile!23 create database mano_production;
+sudo /etc/init.d/apache2 reload
+touch /home/otto/public_html/codegreen/tmp/restart.txt
+v
+
+
+LoadModule passenger_module /usr/lib/ruby/gems/1.8/gems/passenger-2.0.3/ext/apache2/mod_passenger.so
+
+PassengerRoot /usr/lib/ruby/gems/1.8/gems/passenger-2.0.3
+PassengerRuby /usr/bin/ruby1.8
