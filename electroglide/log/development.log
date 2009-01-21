@@ -3972,3 +3972,5 @@ SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
 Rendering template within layouts/default
 Rendering home/index
 Completed in 0.00286 (350 reqs/sec) | Rendering: 0.00087 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+DEPRECATION WARNING: Dependencies is deprecated! Use ActiveSupport::Dependencies instead.  See http://www.rubyonrails.org/deprecation for details. (called from evaluate_init_rb at /bob/dev/github/apps/electroglide/vendor/plugins/simple_cms/init.rb:6)
+DEPRECATION WARNING: Dependencies is deprecated! Use ActiveSupport::Dependencies instead.  See http://www.rubyonrails.org/deprecation for details. (called from evaluate_init_rb at /bob/dev/github/apps/electroglide/vendor/plugins/simple_cms/init.rb:10)
