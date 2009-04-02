@@ -3946,3 +3946,464 @@ SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
 Rendering template within layouts/default
 Rendering about/index
 Completed in 0.00479 (208 reqs/sec) | Rendering: 0.00279 (58%) | DB: 0.00000 (0%) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-01-21 11:49:52) [GET]
+  Session ID: 231f414ea39ea400d30456023e9867d0
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00939 (106 reqs/sec) | Rendering: 0.00678 (72%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-01-21 11:49:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+
+
+LoadError (Expected /bob/dev/github/apps/philanthropy/app/controllers/blog_controller.rb to define BlogController):
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:262:in `load_missing_constant'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:468:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:480:in `const_missing'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:285:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/inflector.rb:284:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/routing/route_set.rb:387:in `recognize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.4/bin/mongrel_rails:281
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:503:in `load'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:355:in `new_constants_in'
+    /usr/local/lib/ruby/gems/1.8/gems/activesupport-2.1.2/lib/active_support/dependencies.rb:510:in `require'
+    /usr/local/lib/ruby/gems/1.8/gems/rails-2.1.2/lib/commands/server.rb:39
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:27:in `require'
+    script/server:3
+
+Rendering /usr/local/lib/ruby/gems/1.8/gems/actionpack-2.1.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-21 11:50:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00603 (165 reqs/sec) | Rendering: 0.00147 (24%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-21 12:00:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00784 (127 reqs/sec) | Rendering: 0.00129 (16%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-01-22 22:21:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.03512 (28 reqs/sec) | Rendering: 0.02804 (79%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-22 22:21:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00574 (174 reqs/sec) | Rendering: 0.00360 (62%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-01-22 22:24:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00323 (309 reqs/sec) | Rendering: 0.00081 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/home]
+
+
+Processing LabsController#index (for 127.0.0.1 at 2009-01-22 22:24:55) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"labs"}
+Rendering template within layouts/default
+Rendering labs/index
+Completed in 0.02245 (44 reqs/sec) | Rendering: 0.02024 (90%) | DB: 0.00000 (0%) | 200 OK [http://localhost/labs]
+
+
+Processing SponsorsController#index (for 127.0.0.1 at 2009-01-22 22:24:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"sponsors"}
+Rendering template within layouts/default
+Rendering sponsors/index
+Completed in 0.01890 (52 reqs/sec) | Rendering: 0.01672 (88%) | DB: 0.00000 (0%) | 200 OK [http://localhost/sponsors]
+
+
+Processing AboutController#index (for 127.0.0.1 at 2009-01-22 22:24:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"about"}
+Rendering template within layouts/default
+Rendering about/index
+Completed in 0.10534 (9 reqs/sec) | Rendering: 0.01667 (15%) | DB: 0.00000 (0%) | 200 OK [http://localhost/about]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-22 22:25:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00350 (285 reqs/sec) | Rendering: 0.00077 (21%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing AboutController#index (for 127.0.0.1 at 2009-01-22 22:27:07) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"about"}
+Rendering template within layouts/default
+Rendering about/index
+Completed in 0.00308 (324 reqs/sec) | Rendering: 0.00089 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/about]
+
+
+Processing SponsorsController#index (for 127.0.0.1 at 2009-01-22 22:27:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"sponsors"}
+Rendering template within layouts/default
+Rendering sponsors/index
+Completed in 0.00309 (323 reqs/sec) | Rendering: 0.00078 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/sponsors]
+
+
+Processing LabsController#index (for 127.0.0.1 at 2009-01-22 22:27:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"labs"}
+Rendering template within layouts/default
+Rendering labs/index
+Completed in 0.00611 (163 reqs/sec) | Rendering: 0.00159 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/labs]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-22 22:27:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00306 (326 reqs/sec) | Rendering: 0.00092 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-01-22 22:27:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00466 (214 reqs/sec) | Rendering: 0.00094 (20%) | DB: 0.00000 (0%) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-01-23 13:44:32) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00288 (347 reqs/sec) | Rendering: 0.00076 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-23 13:44:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00329 (303 reqs/sec) | Rendering: 0.00078 (23%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing LabsController#index (for 127.0.0.1 at 2009-01-23 13:49:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"labs"}
+Rendering template within layouts/default
+Rendering labs/index
+Completed in 0.00296 (337 reqs/sec) | Rendering: 0.00077 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/labs]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-01-23 13:49:44) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00313 (319 reqs/sec) | Rendering: 0.00084 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-02-04 21:58:15) [GET]
+  Session ID: cbce20f27247a46e6de676e368aca544
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.02343 (42 reqs/sec) | Rendering: 0.01997 (85%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 21:58:19) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.01597 (62 reqs/sec) | Rendering: 0.01331 (83%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-02-04 22:04:48) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00472 (211 reqs/sec) | Rendering: 0.00102 (21%) | DB: 0.00000 (0%) | 200 OK [http://localhost/]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:04:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00354 (282 reqs/sec) | Rendering: 0.00125 (35%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:04:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00307 (325 reqs/sec) | Rendering: 0.00087 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:05:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00301 (331 reqs/sec) | Rendering: 0.00078 (25%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:08:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00299 (334 reqs/sec) | Rendering: 0.00079 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:14:17) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00295 (338 reqs/sec) | Rendering: 0.00081 (27%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:14:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00342 (291 reqs/sec) | Rendering: 0.00079 (23%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:14:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00312 (320 reqs/sec) | Rendering: 0.00089 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:15:08) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00649 (154 reqs/sec) | Rendering: 0.00085 (13%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:15:33) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00363 (275 reqs/sec) | Rendering: 0.00113 (30%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:15:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00317 (315 reqs/sec) | Rendering: 0.00083 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:16:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00290 (345 reqs/sec) | Rendering: 0.00078 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:18:34) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00281 (355 reqs/sec) | Rendering: 0.00073 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:19:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00329 (304 reqs/sec) | Rendering: 0.00122 (37%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:40:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00363 (275 reqs/sec) | Rendering: 0.00130 (35%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:41:06) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00439 (227 reqs/sec) | Rendering: 0.00194 (44%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-02-04 22:41:18) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00289 (346 reqs/sec) | Rendering: 0.00077 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/home]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-02-04 22:42:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00282 (354 reqs/sec) | Rendering: 0.00080 (28%) | DB: 0.00000 (0%) | 200 OK [http://localhost/home]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:42:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00282 (354 reqs/sec) | Rendering: 0.00073 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing BlogController#index (for 127.0.0.1 at 2009-02-04 22:42:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"blog"}
+Rendering template within layouts/default
+Rendering blog/index
+Completed in 0.00322 (310 reqs/sec) | Rendering: 0.00086 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/blog]
+
+
+Processing LabsController#index (for 127.0.0.1 at 2009-02-04 22:59:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"labs"}
+Rendering template within layouts/default
+Rendering labs/index
+Completed in 0.01499 (66 reqs/sec) | Rendering: 0.01187 (79%) | DB: 0.00000 (0%) | 200 OK [http://localhost/labs]
+
+
+Processing SponsorsController#index (for 127.0.0.1 at 2009-02-04 22:59:11) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"sponsors"}
+Rendering template within layouts/default
+Rendering sponsors/index
+Completed in 0.02159 (46 reqs/sec) | Rendering: 0.01942 (89%) | DB: 0.00000 (0%) | 200 OK [http://localhost/sponsors]
+
+
+Processing AboutController#index (for 127.0.0.1 at 2009-02-04 22:59:12) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"about"}
+Rendering template within layouts/default
+Rendering about/index
+Completed in 0.02338 (42 reqs/sec) | Rendering: 0.02057 (87%) | DB: 0.00000 (0%) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2009-02-04 22:59:14) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--3d289f493a44cd5707d42c0660e86bcd4f5d2d8e
+  Parameters: {"action"=>"index", "controller"=>"home"}
+Rendering template within layouts/default
+Rendering home/index
+Completed in 0.00332 (300 reqs/sec) | Rendering: 0.00088 (26%) | DB: 0.00000 (0%) | 200 OK [http://localhost/home]
